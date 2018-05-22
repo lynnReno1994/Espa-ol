@@ -1,5 +1,5 @@
 <template>
-<div id="app">
+<div id="app"  onload="screenOrientationEvent()">
   <div id="change"> 请横屏使用 </div>
   <b-container class="bv-example-row">
     <!-- <b-row class="text-center"> -->
@@ -759,6 +759,6 @@ a {
   width: 100%;
   height: 100%;
   background-color: #efefef;
-  
+
 }
 </style>
