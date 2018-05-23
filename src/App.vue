@@ -514,12 +514,14 @@ let class007_c=`
 `
 let class008_s=`
   Los estudiantes universitarios tenemos un horario muy apretado.
-  Nos levantamos muy temrano. Después de bañarnos, si todavía nos quedo tiempo, leemos algo antes del dasayuno.
-  Al comenzar las clases, ya apenas tenemos tiempo para respirar. Por eso, después del almuerzo, tenemos que descansar una hora.
+  Nos levantamos muy temprano. Después de bañarnos, si todavía nos queda tiempo, leemos algo antes del dasayuno.
+  Al comenzar las clases, ya apenas tenemos tiempo para respirar.
+  Por eso, después del almuerzo, tenemos que descansar una hora.
   Por la tarde, muchos de nosotros siempre hacemos algo de deporte.
-  Por la noche, hacmos los trabajos de casa. Nos acostamos a las once.
+  Por la noche, hacemos los trabajos de casa.
+   Nos acostamos a las once.
   ¿ Estamos contentos con nuestra vida estudiantil ?
-  Aunque terminamos la jornada muy cansados, yo algo que sí.
+  Aunque terminamos la jornada muy cansados, yo digo que sí.
 `
 let class008_c=`
   我们这些大学生有个非常紧凑的作息时间。
