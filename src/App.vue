@@ -232,16 +232,16 @@
                  <div class="mt-3 mb-3 sm-6">
                    <b-row class="text-left">
                      <b-col  sm="6" md="6" lg="3">
-                        <b-table striped hover :items="items101"></b-table>
+                        <b-table bordered small :items="items101"></b-table>
                      </b-col>
                      <b-col  sm="6" md="6" lg="3">
-                        <b-table striped hover :items="items102"></b-table>
+                        <b-table bordered small :items="items102"></b-table>
                       </b-col>
                       <b-col  sm="6" md="6" lg="3">
-                         <b-table striped hover :items="items103"></b-table>
+                         <b-table bordered small :items="items103"></b-table>
                        </b-col>
                        <b-col  sm="6" md="6" lg="3">
-                          <b-table striped hover :items="items104"></b-table>
+                          <b-table bordered small :items="items104"></b-table>
                         </b-col>
                    </b-row>
                  </div>
@@ -571,10 +571,10 @@ const items102=[
   {key: 'de', value: '表所属，来源等关系' },
   {key: 'conocer', value: '认识，了解' },
   {key: 'los,las', value: '（三复）宾格代词' },
-  {key: 'mucho gusto', value: '很高兴' },
-  {key: 'es', value: '（三单）是...' }
+  {key: 'mucho gusto', value: '很高兴' }
 ]
 const items103=[
+  {key: 'es', value: '（三单）是...' },
   {key: 'usted', value: '您' },
   {key: 'profesor,ra', value: '教师' },
   {key: 'sí', value: '是的' },
