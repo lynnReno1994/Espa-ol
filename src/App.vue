@@ -882,7 +882,6 @@ export default {
       class001_point:class001_point,
       slide: 0,
       sliding: null,
-      items1: items1,
       items101: items101,
       items102: items102,
       items103: items103,
