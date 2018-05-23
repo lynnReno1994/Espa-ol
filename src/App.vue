@@ -232,16 +232,16 @@
                  <div class="mt-3 mb-3 sm-6">
                    <b-row class="text-left">
                      <b-col  sm="6" md="6" lg="3">
-                        <b-table striped hover :items="items1"></b-table>
+                        <b-table striped hover :items="items101"></b-table>
                      </b-col>
                      <b-col  sm="6" md="6" lg="3">
-                        <b-table striped hover :items="items1"></b-table>
+                        <b-table striped hover :items="items102"></b-table>
                       </b-col>
                       <b-col  sm="6" md="6" lg="3">
-                         <b-table striped hover :items="items1"></b-table>
+                         <b-table striped hover :items="items103"></b-table>
                        </b-col>
                        <b-col  sm="6" md="6" lg="3">
-                          <b-table striped hover :items="items1"></b-table>
+                          <b-table striped hover :items="items104"></b-table>
                         </b-col>
                    </b-row>
                  </div>
@@ -273,9 +273,22 @@
           <div>
             <b-collapse id="collapse_word3" class="mt-2">
               <b-card class="text-left">
-                 <div class="mt-3 mb-3">
-                   danci 03
-                 </div>
+                 <div class="mt-3 mb-3 sm-6">
+                  <b-row class="text-left">
+                    <b-col  sm="6" md="6" lg="3">
+                       <b-table bordered small  :items="items301"></b-table>
+                    </b-col>
+                    <b-col  sm="6" md="6" lg="3">
+                       <b-table bordered small :items="items302"></b-table>
+                     </b-col>
+                     <b-col  sm="6" md="6" lg="3">
+                        <b-table bordered small :items="items303"></b-table>
+                      </b-col>
+                      <b-col  sm="6" md="6" lg="3">
+                         <b-table bordered small :items="items304"></b-table>
+                       </b-col>
+                  </b-row>
+                </div>
               </b-card>
             </b-collapse>
           </div>
@@ -301,30 +314,8 @@
               </b-card>
             </b-collapse>
           </div>
-          <!-- <b-table :items="items" :fields="fields">
-            <template slot="show_details" slot-scope="row">
-              we use @click.stop here to prevent emitting of a 'row-clicked' event
-              <b-button size="sm" @click.stop="row.toggleDetails" class="mr-2">
-               {{ row.detailsShowing ? 'Hide' : 'Show'}} Details
-              </b-button>
-            </template>
-            <template slot="row-details" slot-scope="row">
-              <b-card>
-                <b-row class="mb-2">
-                  <b-col sm="3" class="text-sm-right"><b>Age:</b></b-col>
-                  <b-col>{{ row.item.age }}</b-col>
-                </b-row>
-                <b-row class="mb-2">
-                  <b-col sm="3" class="text-sm-right"><b>Is Active:</b></b-col>
-                  <b-col>{{ row.item.isActive }}</b-col>
-                </b-row>
-                <b-button size="sm" @click="row.toggleDetails">Hide Details</b-button>
-              </b-card>
-            </template>
-          </b-table> -->
         </b-tab>
         <b-tab title="变位">
-          <!-- {{tab03Text}} -->
 
         </b-tab>
         <b-tab title="">
@@ -530,21 +521,247 @@ let class008_s=`
   ¿ Estamos contentos con nuestra vida estudiantil ?
   Aunque terminamos la jornada muy cansados, yo algo que sí.
 `
-let class008_c=``
+let class008_c=`
+  我们这些大学生有个非常紧凑的作息时间。
+  我们很早就起床，洗漱完后，如果还有时间，早饭之前会读些什么。
+  当开始上课的时候，几乎没有时间呼吸。
+  因此，在午饭后，我们不得不休息一小时。
+  下午，我们当中很多人经常做一些运动。
+  晚上，我们做家庭作业，11点睡觉。
+  我们对于我们的大学生活感到开心吗？
+  虽然我们完成工作日非常累，但是我会回答说是的。
+`
 
 
 let class001_point='';
 
-const items1 = [
-  {key: 'Dickerson', value: 'Macdonald' },
-  {key: 'Larsen', value: 'Shaw' },
-  {key: 'Geneva', value: 'Wilson' },
-  {key: 'Jami', value: 'Carney' }
+
+const items101=[
+  {key: 'cómo', value: '怎么' },
+  {key: 'llamarse', value: '叫...名字' },
+  {key: 'te llama', value: '你叫' },
+  {key: 'Ana', value: '安娜' },
+  {key: 'hola', value: '你好' },
+  {key: 'bueno,na', value: '好' },
+  {key: 'día', value: '天' },
+  {key: 'buenos días', value: '早上好' },
+  {key: 'Paco', value: '帕科' },
+  {key: 'yo', value: '我' },
+  {key: 'ser', value: '是' },
+  {key: 'soy', value: '我是' },
+  {key: 'y', value: '和，与' },
+  {key: 'tú', value: '你' },
+  {key: 'me llamo', value: '我叫' },
+  {key: 'ellos', value: '他们' },
+  {key: 'son', value: '（三复）是..' }
 ]
-const items201=[] 
-const items202=[] 
-const items203=[] 
-const items204=[] 
+const items102=[
+  {key: 'mi', value: '我的' },
+  {key: 'amigo,ga', value: '朋友' },
+  {key: 'ella', value: '她，它' },
+  {key: 'se llama', value: '他叫...' },
+  {key: 'Susana', value: '苏珊娜' },
+  {key: 'él', value: '他' },
+  {key: 'Tomás', value: '托马斯' },
+  {key: 'ustedes', value: '您们' },
+  {key: 'español,la', value: '西班牙人' },
+  {key: 'cubano,na', value: '古巴人' },
+  {key: 'chileno,na', value: '智利人' },
+  {key: 'encantado,da', value: '很高兴...' },
+  {key: 'de', value: '表所属，来源等关系' },
+  {key: 'conocer', value: '认识，了解' },
+  {key: 'los,las', value: '（三复）宾格代词' },
+  {key: 'mucho gusto', value: '很高兴' },
+  {key: 'es', value: '（三单）是...' }
+]
+const items103=[
+  {key: 'usted', value: '您' },
+  {key: 'profesor,ra', value: '教师' },
+  {key: 'sí', value: '是的' },
+  {key: 'chino', value: '中文' },
+  {key: 'ah', value: '啊' },
+  {key: 'nuestro,ra', value: '我们的' },
+  {key: 'entonces', value: '那么' },
+  {key: 'somos', value: '我们是' },
+  {key: 'su', value: '您的，诸位' },
+  {key: 'alumno,na', value: '学生' },
+  {key: 'quién,es', value: '谁，哪几位' },
+  {key: 'el', value: '单数阳性定冠词' },
+  {key: 'chico,ca', value: '小伙子，小姑娘' },
+  {key: 'mexicano,na', value: '墨西哥人' },
+  {key: 'chino,na', value: '中国人' }
+]
+const items104=[
+  {key: 'las', value: '复数阴性定冠词' },
+  {key: 'dos', value: '二' },
+  {key: 'estudiante', value: '学生' },
+  {key: 'eres', value: '你是' },
+  {key: 'esos,as', value: '那些' },
+  {key: 'joven', value: '青年人' },
+  {key: 'ellos,llas', value: '他她它们' },
+  {key: 'ese,sa', value: '那个' },
+  {key: 'Manolo', value: '马诺罗' },
+  {key: 'no', value: '不' },
+  {key: 'panameño,ña', value: '巴拿马人' },
+  {key: 'Elena', value: '艾蕾娜' },
+  {key: 'novio,via', value: '情侣' },
+  {key: '¡Qué va!', value: '不是！哪里！' },
+  {key: 'solo', value: '只是' }
+]
+
+const items201=[
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' }
+]
+const items202=[
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' }
+]
+const items203=[
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' }
+]
+const items204=[
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' }
+]
+
+const items301=[
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' }
+]
+const items302=[
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' }
+]
+const items303=[
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' }
+]
+const items304=[
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' },
+  {key: '', value: '' }
+]
 
 const items401 = [
   {key: 'por qué', value: '为什么' },
@@ -666,6 +883,10 @@ export default {
       slide: 0,
       sliding: null,
       items1: items1,
+      items101: items101,
+      items102: items102,
+      items103: items103,
+      items104: items104,
       items401: items401,
       items402: items402,
       items403: items403,
@@ -673,7 +894,11 @@ export default {
       items201: items201,
       items202: items202,
       items203: items203,
-      items204: items204
+      items204: items204,
+      items301: items301,
+      items302: items302,
+      items303: items303,
+      items304: items304
 
     }
   },
